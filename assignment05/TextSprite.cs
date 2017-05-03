@@ -46,7 +46,6 @@ namespace assignment05
 
 		public override void paint(Graphics g)
 		{
-			//base.paint(g);
 			if (visible) g.DrawString(text, new Font("Ubuntu", font), Brushes.Black, x, y);
 		}
 	}

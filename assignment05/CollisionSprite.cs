@@ -68,7 +68,6 @@ namespace assignment05
 					collisions.Add(s);
 				}
 			}
-			//Console.Out.WriteLine(collisions.Count);
 			return collisions;
 		}
 

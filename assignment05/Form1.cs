@@ -100,7 +100,6 @@ namespace assignment05
 				if (diff.TotalMilliseconds < frameTime.TotalMilliseconds)
 					Thread.Sleep((frameTime - diff).Milliseconds);
 				last = DateTime.Now;
-				//form.Refresh();
 				if (resetting) continue;
 				rendering = true;
 				if (enemyCount <= 0 && !lose)
@@ -159,7 +158,6 @@ namespace assignment05
 
 		protected override void OnMouseMove(MouseEventArgs e)
 		{
-			//Refresh();
 		}
 
 		protected override void OnMouseDown(MouseEventArgs e)
@@ -169,12 +167,6 @@ namespace assignment05
 
 		protected override void OnPaint(PaintEventArgs e)
 		{
-			/*base.OnPaint(e);
-            e.Graphics.FillRectangle(Brushes.Black, ClientRectangle);
-            parent.render(e.Graphics);
-            e.Graphics.DrawString("Collisions: " + elephant.getCollisions().Count, new Font("Comic Sans MS", 10), Brushes.LawnGreen, 0, 0);
-            e.Graphics.DrawString("Count: " + elephant.TrackedSprites.Count, new Font("Comic Sans MS", 10), Brushes.LawnGreen, 0, 20);
-            e.Graphics.DrawString("Enemies Remaining: " + enemyCount, new Font("Comic Sans MS", 10), Brushes.LawnGreen, 0, 0);*/
 			canvas.render(e.Graphics);
 		}
 
