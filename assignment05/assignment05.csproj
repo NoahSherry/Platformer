@@ -94,15 +94,6 @@
     <None Include="Resources\box.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\elephant.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jason.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\json.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\hammer.jpeg" />
   </ItemGroup>
   <ItemGroup>
@@ -119,9 +110,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bowser.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Super Mario Bros. 3 Music - Athletic %28Time Running Out%29.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -34,7 +34,7 @@ namespace assignment05
 				box = new Box(1200, i * 100);
 				canvas.csAdd(box);
 			}
-			Program.canvas.csAdd(jason);
+			Program.canvas.csAdd(bowser);
 			Application.Run(new Program());
 			/*Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

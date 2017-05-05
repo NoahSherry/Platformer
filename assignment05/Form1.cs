@@ -18,7 +18,7 @@ namespace assignment05
 		public static Mario mario = new Mario(110, 465);
 		public static Sprite canvas = new Sprite();
 		public static int enemyCount = 0;
-		public static Enemy jason = new Enemy(850, 200);
+		public static Enemy bowser = new Enemy(850, 200);
 		public static Rectangle rect = new Rectangle(0, 0, 1400, 900, 200);
 		public static bool win = false;
 		public static bool lose = false;
@@ -77,9 +77,9 @@ namespace assignment05
 				box = new Box(1200, i * 100);
 				canvas.csAdd(box);
 			}
-			jason = new Enemy(850, 200);
+			bowser = new Enemy(850, 200);
 			enemyCount = 1;
-			canvas.csAdd(jason);
+			canvas.csAdd(bowser);
 			canvas.add(rect);
 			canvas.add(text);
 			canvas.add(loss);
